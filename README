@@ -1,0 +1,2 @@
+// Command run watch sass convert to css
+sass --watch sass/style.sass:css/style.css
