@@ -13,19 +13,70 @@
   font-weight: 900;
   line-height: 38px;
 }
+.text__title_first_screen {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+}
+.text__title_second_screen {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.text__title_second_screen_under_icon {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.text__content_first_screen {
+  color: #505f98 !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 85%;
+}
+.text__content_second_screen {
+  color: #505f98 !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 93%;
+}
+.text__content_second_screen_under_icon {
+  color: #505f98 !important;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.text__money_footer {
+  color: #222F65 !important;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 1px;
+  margin-top: 35px;
+}
 
-.btn {
+.button {
   background-color: #111B47 !important;
   color: #FFFFFF !important;
   --bs-border-radius: 2px;
 }
-.btn__nav {
+.button__nav {
   width: 160px;
   height: 26px;
   --bs-btn-padding-y: 0 !important;
   font-size: 12px !important;
   font-weight: 500 !important;
   line-height: 18px !important;
+}
+.button__first_screen {
+  width: 189px;
+  height: 35px;
+  --bs-btn-padding-y: 0 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 26px !important;
 }
 
 .navbar-collapse {
@@ -42,6 +93,11 @@
 
 .container-relative {
   position: relative;
+  margin-left: 150px;
+}
+
+.max-width {
+  max-width: 1440px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
