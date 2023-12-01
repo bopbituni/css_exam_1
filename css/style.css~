@@ -60,8 +60,8 @@
 .button {
   background-color: #111B47 !important;
   color: #FFFFFF !important;
+  border: none !important;
   --bs-border-radius: 2px;
-  border: none !important
 }
 .button__nav {
   width: 160px;
@@ -96,4 +96,4 @@
   position: relative;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */
